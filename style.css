@@ -1,0 +1,68 @@
+/* * */
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 400;
+}
+
+/* Carousel base class */
+.carousel {
+    margin-bottom: 4rem;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+    height: 32rem;
+    background-color: #555;
+}
+
+.carousel-item>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+    object-fit: cover;
+    opacity: .8;
+}
+
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.bio {
+    position: relative;
+}
+
+.bio-img {
+    position: absolute;
+    top: -50px;
+    left: 0;
+    right: 0;
+}
+
+.bio-social > .bi {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+.popular-desc p span {
+    font-weight: 100;
+    font-size: small;
+}
