@@ -3,7 +3,7 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
 }
@@ -65,4 +65,21 @@ p {
 .popular-desc p span {
     font-weight: 100;
     font-size: small;
+}
+
+/* detail post */
+
+.detail-img {
+    position: relative;
+    min-width: 100%;
+    height: 20rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.detail-img > .post-label {
+    position: absolute;
+    bottom: 0;
 }
